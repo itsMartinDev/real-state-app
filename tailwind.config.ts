@@ -24,7 +24,7 @@ const config: Config = {
     fontFamily: {
       body: ['var(--font-montserrat)'],
       serif : ['var(--font-dm-serif-display)', ],
-      cursive : [ 'var(--font-alex-brush)']
+      cursive : [ 'var(--font-mrs-saint-delafield)']
     },
   },
   plugins: [],

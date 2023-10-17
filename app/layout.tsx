@@ -1,6 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { montserrat, dm_serif_display, alex_brush } from '@/app/fonts'
+import { montserrat, dm_serif_display, mrs_saint_delafield } from '@/app/fonts'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en"  className={`${montserrat.variable} ${dm_serif_display.variable} ${alex_brush.variable}`}>
+    <html lang="en"  className={`${montserrat.variable} ${dm_serif_display.variable} ${mrs_saint_delafield.variable}`}>
       <body >{children}</body>
     </html>
   )

@@ -1,5 +1,5 @@
 
-import { DM_Serif_Display, Montserrat, Alex_Brush } from 'next/font/google'
+import { DM_Serif_Display, Montserrat, Mrs_Saint_Delafield } from 'next/font/google'
 
 
 
@@ -16,8 +16,8 @@ export const dm_serif_display = DM_Serif_Display({
  })
  
 
- export const alex_brush = Alex_Brush({
+ export const mrs_saint_delafield = Mrs_Saint_Delafield({
    subsets : ['latin'],
-   variable: '--font-alex-brush',
+   variable: '--font-mrs-saint-delafield',
    weight : ['400']
  })
