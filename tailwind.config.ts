@@ -14,6 +14,18 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    colors : {
+      'transparent' : 'transparent',
+      'main-color' : '#b79061',
+      'white' : '#ffffff',
+      'black' : '#181d23',
+      'yellow' : '#ffbf00'
+    },
+    fontFamily: {
+      body: ['var(--font-montserrat)'],
+      serif : ['var(--font-dm-serif-display)', ],
+      cursive : [ 'var(--font-alex-brush)']
+    },
   },
   plugins: [],
 }
