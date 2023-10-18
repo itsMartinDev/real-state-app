@@ -5,12 +5,12 @@ const CoverResidences = () => {
     <div className='bg-light-pink'>
       <div className="container">
 
-         <div className='grid grid-cols-1 lg:grid-cols-2 md:pl-16 py-24'>
+         <div className='grid grid-cols-1 md:grid-cols-2 pt-24 -mb-6'>
 
             <div></div>
 
 
-            <div className='font-serif text-6xl upp'>
+            <div className='font-serif text-6xl  md:-ml-32 z-40'>
                <div className='text-main-color'>Cypress Park</div>
                <div className='text-main-color'>Residences</div>
                <div>has everything</div>

@@ -4,6 +4,7 @@ import CoverResidences from '@/components/CoverResidences'
 import Footer from '@/components/Footer'
 import Gallery from '@/components/Gallery'
 import Hero from '@/components/Hero'
+import MakeYourChoice from '@/components/MakeYourChoice'
 import ModernVillaCover from '@/components/ModernVillaCover'
 import ParkCover from '@/components/ParkCover'
 
@@ -18,6 +19,7 @@ export default function Home() {
       <ParkCover></ParkCover>
       <CoverResidences></CoverResidences>
       <ModernVillaCover></ModernVillaCover>
+      <MakeYourChoice></MakeYourChoice>
       <Contact></Contact>
       <Footer></Footer>
     </main>

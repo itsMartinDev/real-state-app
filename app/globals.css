@@ -33,6 +33,13 @@
   background-position: center
 }
 
+.custom-bg-make-your-choice {
+  background-image: url('/images/make-your-choice.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+
 .custom-bg-ring {
   background-image: url('/images/ring.png');
   background-size: contain;

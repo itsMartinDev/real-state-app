@@ -23,7 +23,7 @@ const ParkCover = () => {
                   
                   <div></div>
 
-                  <div className='text-white max-w-xs '>
+                  <div className='text-white max-w-xs font-body'>
                      A lifestyle characterized by comfort, and the priceless joy of spending quality time.
                   </div>
 
