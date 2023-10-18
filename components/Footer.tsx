@@ -2,6 +2,7 @@ import { socialPages } from '@/constants/constants'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import RevealWrapper from './RevealWrapper'
 
 const Footer = () => {
   return (
@@ -18,13 +19,15 @@ const Footer = () => {
               
             </div>
           </div>
-          <div className='font-serif text-4xl mg:text-6xl text-main-color'>+1 000 999 00 00</div>
+          <RevealWrapper delay={0.25}>
+            <div className='font-serif text-4xl mg:text-6xl text-main-color'>+1 000 999 00 00</div>
+          </RevealWrapper>
           <div className='text-white font-serif py-8 max-w-sm text-center '>Our dedicated team of experts will be available to address all your queries and concerns</div>
           
           <div className='flex gap-4 mt-8'>
             {
               socialPages.map( (page) => (
-                <Link href='#footer' className='border-2 border-main-color rounded-full p-6'>
+                <Link href='#footer' className='border-2 border-main-color rounded-full p-6 hover:bg-light-black'>
                   <Image src={page} width="20" height="20" alt='' className='invert'></Image>
                 </Link >
               ) )

@@ -20,7 +20,8 @@ const config: Config = {
       'white' : '#ffffff',
       'black' : '#181d23',
       'yellow' : '#ffbf00',
-      'light-pink' : '#f9efed'
+      'light-pink' : '#f9efed',
+      'light-black' : '#242b34'
     },
     fontFamily: {
       body: ['var(--font-montserrat)'],

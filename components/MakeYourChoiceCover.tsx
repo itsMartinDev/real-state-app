@@ -11,7 +11,7 @@ const MakeYourChoiceCover = () => {
         <div className='relative w-full'>
 
 
-          <div className='absolute-center'>
+          <div className='absolute-center hidden md:flex'>
             <RevealWrapper delay={0.75}>
               <div className='text-main-color font-cursive text-8xl opacity-40'>
                 Make your choice
@@ -42,22 +42,7 @@ const MakeYourChoiceCover = () => {
             }
           </div>
 
-
-
-
-
-
-
-
-
         </div>
-
-
-
-
-
-
-
 
       </div>
     </div>
