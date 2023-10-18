@@ -4,7 +4,7 @@ import { housingImages } from '@/constants/constants'
 import Image from 'next/image'
 import RevealWrapper from './RevealWrapper'
 
-const Gallery = () => {
+const ElegantViewsCover = () => {
   return (
     <div className='bg-black'> 
       <div className='container '>
@@ -56,4 +56,4 @@ const Gallery = () => {
   )
 }
 
-export default Gallery
+export default ElegantViewsCover

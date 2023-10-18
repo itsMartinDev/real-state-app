@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const ModernVillaCover = () => {
+const SleekAbodesCover = () => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 bg-light-pink'>
 
@@ -21,4 +21,4 @@ const ModernVillaCover = () => {
   )
 }
 
-export default ModernVillaCover
+export default SleekAbodesCover

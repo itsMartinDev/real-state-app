@@ -1,12 +1,12 @@
 import Contact from '@/components/Contact'
-import Cover from '@/components/Cover'
-import CoverResidences from '@/components/CoverResidences'
+import LifeAmongParksCover from '@/components/LifeAmongParksCover'
+import CypressParkResidencesCover from '@/components/CypressParkResidencesCover'
 import Footer from '@/components/Footer'
-import Gallery from '@/components/Gallery'
+import ElegantViewsCover from '@/components/ElegantViewsCover'
 import Hero from '@/components/Hero'
-import MakeYourChoice from '@/components/MakeYourChoice'
-import ModernVillaCover from '@/components/ModernVillaCover'
-import ParkCover from '@/components/ParkCover'
+import MakeYourChoiceCover from '@/components/MakeYourChoiceCover'
+import SleekAbodesCover from '@/components/SleekAbodesCover'
+import CypressParkCover from '@/components/CypressParkCover'
 import ScrollWrapper from '@/components/ScrollWrapper'
 
 import Image from 'next/image'
@@ -16,12 +16,18 @@ export default function Home() {
     <main >
       <Hero></Hero>
 
-      <Gallery></Gallery>
-      <Cover></Cover>
-      <ParkCover></ParkCover>
-      <CoverResidences></CoverResidences>
-      <ModernVillaCover></ModernVillaCover>
-      <MakeYourChoice></MakeYourChoice>
+      <ElegantViewsCover></ElegantViewsCover>
+
+      <LifeAmongParksCover></LifeAmongParksCover>
+
+      <CypressParkCover></CypressParkCover>
+
+      <CypressParkResidencesCover></CypressParkResidencesCover>
+
+      <SleekAbodesCover></SleekAbodesCover>
+
+      <MakeYourChoiceCover></MakeYourChoiceCover>
+
       <Contact></Contact>
       <Footer></Footer>
     </main>

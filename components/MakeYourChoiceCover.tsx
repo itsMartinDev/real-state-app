@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import RevealWrapper from './RevealWrapper'
 
-const MakeYourChoice = () => {
+const MakeYourChoiceCover = () => {
   return (
     <div id='stats' className='md:h-screen custom-bg-make-your-choice'>
       <div className='container flex h-full items-center bg-w hite py-8'>
@@ -64,4 +64,4 @@ const MakeYourChoice = () => {
   )
 }
 
-export default MakeYourChoice
+export default MakeYourChoiceCover

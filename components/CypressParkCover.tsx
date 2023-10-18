@@ -1,7 +1,7 @@
 import React from 'react'
 import RevealWrapper from './RevealWrapper'
 
-const ParkCover = () => {
+const CypressParkCover = () => {
    return (
       <div className='custom-bg-park-cover'>
 
@@ -41,4 +41,4 @@ const ParkCover = () => {
    )
 }
 
-export default ParkCover
+export default CypressParkCover

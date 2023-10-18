@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CoverResidences = () => {
+const CypressParkResidencesCover = () => {
   return (
     <div className='bg-light-pink'>
       <div className="container">
@@ -28,4 +28,4 @@ const CoverResidences = () => {
   )
 }
 
-export default CoverResidences
+export default CypressParkResidencesCover

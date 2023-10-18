@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Cover = () => {
+const LifeAmongParksCover = () => {
   return (
     <div className='custom-bg-cover h-screen'>
 
@@ -35,4 +35,4 @@ const Cover = () => {
   )
 }
 
-export default Cover
+export default LifeAmongParksCover
