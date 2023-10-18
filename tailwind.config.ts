@@ -19,7 +19,8 @@ const config: Config = {
       'main-color' : '#b79061',
       'white' : '#ffffff',
       'black' : '#181d23',
-      'yellow' : '#ffbf00'
+      'yellow' : '#ffbf00',
+      'light-pink' : '#f9efed'
     },
     fontFamily: {
       body: ['var(--font-montserrat)'],

@@ -16,7 +16,7 @@ const Hero = () => {
                   <div className='grid grid-cols-2 lg:grid-cols-3'>
 
                      <div className='flex items-start '>
-                        <div className='py-1 px-5 border-2 border-main-color rounded-full'>Home</div>
+                        <div className='py-1 px-5 border-2 border-main-color rounded-full'>Contact</div>
                         <div className=' px-5 py-2'>About</div>
                      </div>
 

@@ -1,6 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::selection {
+  color: white;
+  background: #b79061;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #b79061;
+}
+
 .custom-bg-hero {
   background-image: url('/images/bg-image.jpg');
   background-repeat: no-repeat;

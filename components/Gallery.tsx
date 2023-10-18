@@ -39,8 +39,8 @@ const Gallery = () => {
 
             <div className='flex justify-center mt-[-30px]  z-20'>
 
-               <div className='rounded-full border-main-color bg-black border-4 py-4 px-2 md:py-6 md:px-4  text-white text-sm'>
-                  HOME
+               <div className='rounded-full border-main-color bg-black border-4 py-4 px-4 md:py-6 md:px-6  text-white text-sm'>
+                  
                </div>   
             </div>
 

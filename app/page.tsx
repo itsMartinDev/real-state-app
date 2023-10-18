@@ -1,7 +1,10 @@
+import Contact from '@/components/Contact'
 import Cover from '@/components/Cover'
 import CoverResidences from '@/components/CoverResidences'
+import Footer from '@/components/Footer'
 import Gallery from '@/components/Gallery'
 import Hero from '@/components/Hero'
+import ModernVillaCover from '@/components/ModernVillaCover'
 import ParkCover from '@/components/ParkCover'
 
 import Image from 'next/image'
@@ -14,6 +17,9 @@ export default function Home() {
       <Cover></Cover>
       <ParkCover></ParkCover>
       <CoverResidences></CoverResidences>
+      <ModernVillaCover></ModernVillaCover>
+      <Contact></Contact>
+      <Footer></Footer>
     </main>
   )
 }
