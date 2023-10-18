@@ -7,6 +7,7 @@ import Hero from '@/components/Hero'
 import MakeYourChoice from '@/components/MakeYourChoice'
 import ModernVillaCover from '@/components/ModernVillaCover'
 import ParkCover from '@/components/ParkCover'
+import ScrollWrapper from '@/components/ScrollWrapper'
 
 import Image from 'next/image'
 
@@ -14,6 +15,7 @@ export default function Home() {
   return (
     <main >
       <Hero></Hero>
+
       <Gallery></Gallery>
       <Cover></Cover>
       <ParkCover></ParkCover>

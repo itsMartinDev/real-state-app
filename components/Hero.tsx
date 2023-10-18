@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import RevealWrapper from './RevealWrapper'
 const Hero = () => {
    return (
 
@@ -18,7 +19,7 @@ const Hero = () => {
 
                      <div className='flex items-start '>
                         <Link href={'#stats'} className='py-1 px-5 border-2 border-main-color rounded-full'>Stats</Link>
-                        
+
                         {/* <div className='py-1 px-5 '>About</div> */}
                      </div>
 
@@ -53,9 +54,9 @@ const Hero = () => {
                         <div className='py-1 px-5 '>
                            +1 000 999 00 00
                         </div>
-                        
+
                         <Link href={'#request-a-callback'} className='py-1 px-5 bg-main-color rounded-full text-white'>Request a callback</Link>
-                        
+
 
                      </div>
 
@@ -70,9 +71,15 @@ const Hero = () => {
                </nav>
 
                <div className='mt-48 xl:mt-80 text-white sm:pl-16 xl:pl-24 relative z-50 font-serif drop-shadow-md'>
-                  <div className='text-6xl md:text-7xl lg:text-8xl xl:text-9xl '>CYPRESS</div>
-                  <div className='text-6xl md:text-7xl lg:text-8xl xl:text-9xl flex items-center  '>PARK
-                     <div className='text-4xl lg:text-7xl xl:text-8xl pl-4 font-cursive -rotate-6 mt-[15px] opacity-80'>Residences</div>
+
+
+
+                  <RevealWrapper delay={0.25}>
+                     <div className='text-6xl md:text-7xl lg:text-8xl xl:text-9xl '>CYPRESS</div>
+                  </RevealWrapper>
+
+                  <div className='text-6xl md:text-7xl lg:text-8xl xl:text-9xl flex items-center  '><RevealWrapper delay={0.50}><span>PARK</span></RevealWrapper>
+                     <div className='text-4xl lg:text-7xl xl:text-8xl pl-4 font-cursive -rotate-6 mt-[15px] opacity-80'><RevealWrapper delay={0.75}><span>Residences</span></RevealWrapper></div>
                   </div>
                </div>
 

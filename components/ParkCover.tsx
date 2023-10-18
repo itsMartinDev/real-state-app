@@ -1,4 +1,5 @@
 import React from 'react'
+import RevealWrapper from './RevealWrapper'
 
 const ParkCover = () => {
    return (
@@ -22,10 +23,11 @@ const ParkCover = () => {
                <div className='grid grid-cols-1 md:grid-cols-2 mt-6 md:mt-16'>
                   
                   <div></div>
-
-                  <div className='text-white max-w-xs font-body'>
-                     A lifestyle characterized by comfort, and the priceless joy of spending quality time.
-                  </div>
+                  <RevealWrapper delay={0.25}>
+                     <div className='text-white max-w-xs font-body'>
+                        A lifestyle characterized by comfort, and the priceless joy of spending quality time.
+                     </div>
+                  </RevealWrapper>
 
                </div>
 

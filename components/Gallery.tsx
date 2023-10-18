@@ -2,6 +2,7 @@
 import React from 'react'
 import { housingImages } from '@/constants/constants'
 import Image from 'next/image'
+import RevealWrapper from './RevealWrapper'
 
 const Gallery = () => {
   return (
@@ -13,10 +14,11 @@ const Gallery = () => {
             
 
                <div className='absolute-center z-10 '>  
-                  
-                  <div className=' text-white font-cursive text-2xl md:text-4xl lg:text-9xl opacity-60 '>
-                     Elegant Views
-                  </div>
+                  <RevealWrapper delay={1}>
+                     <div className=' text-white font-cursive text-2xl md:text-4xl lg:text-9xl opacity-60 '>
+                        Elegant Views
+                     </div>
+                  </RevealWrapper>
          
                </div>
             
@@ -24,7 +26,9 @@ const Gallery = () => {
                <div className=' grid grid-cols-3 gap-4 '>
                   {
                      housingImages.map( (image, index) => (
-                           <Image key={index} src={image} width={557} height={828} alt=''></Image>
+                           <RevealWrapper delay={0.25 * index}  key={index}>
+                              <Image src={image} width={557} height={828} alt=''></Image>
+                           </RevealWrapper>
                         )
                      )
                   }
