@@ -1,17 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::selection {
+  color: white;
+  background: #b79061;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #b79061;
+}
+
 .custom-bg-hero {
   background-image: url('/images/bg-image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center
+}
+
+.custom-bg-cover {
+  background-image: url('/images/bg-cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+
+.custom-bg-park-cover {
+  background-image: url('/images/bg-park-cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+
+.custom-bg-make-your-choice {
+  background-image: url('/images/make-your-choice.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
 }
 
 .custom-bg-ring {
   background-image: url('/images/ring.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 30%
+  background-position: 15%
 
 }
 
@@ -21,4 +54,12 @@ body{
 
 .container {
   @apply max-w-6xl mx-auto px-4
+}
+
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

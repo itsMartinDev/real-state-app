@@ -19,12 +19,14 @@ const config: Config = {
       'main-color' : '#b79061',
       'white' : '#ffffff',
       'black' : '#181d23',
-      'yellow' : '#ffbf00'
+      'yellow' : '#ffbf00',
+      'light-pink' : '#f9efed',
+      'light-black' : '#242b34'
     },
     fontFamily: {
       body: ['var(--font-montserrat)'],
       serif : ['var(--font-dm-serif-display)', ],
-      cursive : [ 'var(--font-alex-brush)']
+      cursive : [ 'var(--font-mrs-saint-delafield)']
     },
   },
   plugins: [],
