@@ -27,7 +27,7 @@ const Footer = () => {
           <div className='flex gap-4 mt-8'>
             {
               socialPages.map( (page) => (
-                <Link href='#footer' className='border-2 border-main-color rounded-full p-6 hover:bg-light-black'>
+                <Link key={page} href='#footer' className='border-2 border-main-color rounded-full p-6 hover:bg-light-black'>
                   <Image src={page} width="20" height="20" alt='' className='invert'></Image>
                 </Link >
               ) )
