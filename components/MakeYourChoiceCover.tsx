@@ -22,8 +22,8 @@ const MakeYourChoiceCover = () => {
           <div className=' grid grid-cols-1 md:grid-cols-3 gap-10 w-full'>
             {
               makeYourChoiceData.map((data, index) => (
-                <RevealWrapper delay={0.25 * index}>
-                  <div key={data.description} className='bg-black h-96 p-10 flex flex-col justify-between'>
+                <RevealWrapper key={data.description} delay={0.25 * index}>
+                  <div  className='bg-black h-96 p-10 flex flex-col justify-between'>
                     <div className=' font-serif text-main-color text-6xl'>{data.number}</div>
 
                     <div className='flex items-center'>
